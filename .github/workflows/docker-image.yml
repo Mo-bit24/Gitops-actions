@@ -121,8 +121,8 @@ jobs:
           file: ./client/Dockerfile
           push: true
           tags: |
-            amohammed2411/frontend:latest
-            amohammed2411/frontend:${{ env.IMAGE_TAG }}
+            mohammed2411/frontend:latest
+            mohammed2411/frontend:${{ env.IMAGE_TAG }}
 
   trivy_image_scan:
     runs-on: ubuntu-latest
